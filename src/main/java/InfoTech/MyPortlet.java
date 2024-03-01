@@ -64,7 +64,7 @@ public class MyPortlet extends GenericPortlet {
     }
 
     public void destroy() {
-        normalView = null;
+        normalView  jj = null;
         maximizedView = null;
         helpView = null;
         super.destroy();
