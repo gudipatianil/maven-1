@@ -68,7 +68,7 @@ public class MyPortlet extends GenericPortlet {
         maximizedView = null;
         helpView = null;
         super.destroy();
-        
+        System.out.println("Success");
     }
 
 }
